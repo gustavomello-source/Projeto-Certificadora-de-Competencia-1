@@ -1,0 +1,103 @@
+{
+    "exercises": [
+        {
+            "id": 1,
+            "question": "(Unicamp 2023) A prática esportiva de “pular corda” vem conquistando muitos adeptos e se tornando uma 
+            modalidade de competição. Numa prova de velocidade, um atleta consegue dar 105 saltos em 30 segundos. 
+            Considerando que o ponto da corda que passa sob os pés e acima da cabeça do praticante descreve uma 
+            trajetória circular de raio r = 90 cm, qual é a velocidade escalar desse ponto da corda? Use 
+            π = 3.",
+            "answer": "Considerando 1 salto a cada volta, são 105 voltas (n) em 30 s 
+            (Δt). v=ΔS/Δt => n*(2πR)/Δt => (105*2*3*0,9)/30 => v=18,9m/s ",
+            "topic": "Cinemática",
+            "difficulty": "Fácil"
+        },
+        {
+            "id": 2,
+            "question": " (Unicamp 2021) Ao passar pelo sensor magnético, a velocidade linear de um ponto de uma fita cassete é
+            v 0,045 m/s. Depois de passar pelo sensor, a fita é enrolada em uma bobina circular de diâmetro 
+            d 6,0 cm. Em quanto tempo a bobina completa uma volta?",
+            "answer": "v=ΔS/Δt => v=πd/T => T=πd/v => T= (3*6*10^-2)/(4,5*10^-2) => T=4,0s",
+            "topic": "Cinemática",
+            "difficulty": "Fácil"
+        },
+        {
+            "id": 3,
+            "question": "(Unesp 2022) Uma pessoa comprou um chuveiro eletrônico e, lendo o manual de instruções do aparelho, 
+            encontrou as seguintes informações:
+            Potência: 7 000 W
+            Consumo mensal de energia: 42 kWh
+            Tensão: 220 V
+            Após alguns cálculos, essa pessoa concluiu que o autor do manual considerou que os usuários desse chuveiro 
+            tomariam, em um mês de 30 dias, banhos que, em um dia, teriam duração, em média, de:",
+            "answer": "P=ΔE/Δt => Δt= ΔE/P => Δt =42/7 [(kWh/mês)/kW] => Δt= 6 [h/mês] => 6[60min/30dias] => Δt=12min/dia",
+            "topic": "Elétrica",
+            "difficulty": "Fácil"
+        },
+        {
+            "id": 4,
+            "question": "(Unesp 2018) Uma bateria de smartphone de 
+            4.000 mA*h e 5,0 V pode fornecer uma corrente elétrica 
+            média de 4.000 mA durante uma hora até que se descarregue. 
+            Calcule a quantidade de carga elétrica, em coulombs, que essa bateria pode fornecer ao circuito",
+            "answer": "Q=iΔt => Q=4000mA*h = 4 A * 3600s => Q= 14400C",
+            "topic": "Momentum and Impulse",
+            "difficulty": "Fácil"
+        },
+    
+        {
+            "id": 5,
+            "question": "Duas forças de módulos F1  8 N e F2  9 N formam entre si um ângulo de 60.
+            Sendo cos 60=0,5 e sen 60=0,87, o módulo da
+            força resultante, em newtons, é, aproximadamente:",
+            "answer": "FR = √(F1^2+F2^2+2*F1*F2*cos60) => FR = √(8^2+9^2+2*8*9*0,5) => FR= 17,7N",
+            "topic": "Dinâmica",
+            "difficulty": "Médio"
+        },
+        {
+            "id": 6,
+            "question": "(Fuvest 2023) O Brasil é o país recordista mundial em queda de raios, com uma estimativa de mais de 70 
+            milhões de eventos desse tipo por ano. 
+            Uma descarga elétrica dessas pode envolver campos elétricos da ordem de dez kilovolts por metro e um 
+            deslocamento de 30 coulombs de carga em um milésimo de segundo. 
+            Com base nessas estimativas e assumindo o campo elétrico como sendo constante, a potência associada a um 
+            raio de 100 m de comprimento corresponde a: ",
+            "answer": "Calculando a tensão: U=Ed=10^4*100 => U=10^6V. Calculando a Corrente: i= Q/Δt = 30/10^-3 => i=30*10^3A.  Aplicando a expressão da potência elétrica: P=Ui => P=10^6*30*10^3 => P= 30*10^9W => P= 30GW",
+            "topic": "Elétrica",
+            "difficulty": "Médio"
+        },
+        {
+            "id": 7,
+            "question": "(Unesp 2018) Para obter experimentalmente a curva da diferença de potencial 
+            U em função da intensidade da corrente elétrica i para uma lâmpada, um aluno montou o circuito a seguir. Colocando entre os pontos 
+            A e B resistores com diversos valores de resistência, ele obteve diferentes valores de U e de i para a lâmpada.Considerando que a bateria de 
+            9,0 V, os aparelhos de medida e os fios de ligação sejam ideais, quando o aluno
+            obteve as medidas U=5,70 V e i=0,15 A, a resistência do resistor colocado entre os pontos A e B era de
+            ",
+            "answer": "A força eletromotriz da Bateria (E) é ogual à ddp (diferença de potencial) na lâmpada (U) somada com a ddp no resistor (UR). Assim: 
+            E=U+UR => E=U+Ri => 9=5,7+R(0,15) => R= (9-5,7)/0,15 = 3,3/0,15 => R=22Ω ",
+            "topic": "Eletrodinamica",
+            "difficulty": "Médio"
+        },
+        {
+            "id": 8,
+            "question": "Define momentum.",
+            "answer": "Momentum (p) = Mass (m) * Velocity (v)",
+            "topic": "Momentum and Impulse",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 9,
+            "question": "Define momentum.",
+            "answer": "Momentum (p) = Mass (m) * Velocity (v)",
+            "topic": "Momentum and Impulse",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 10,
+            "question": "Define momentum.",
+            "answer": "Momentum (p) = Mass (m) * Velocity (v)",
+            "topic": "Momentum and Impulse",
+            "difficulty": "Hard"
+        },
+}
