@@ -81,23 +81,77 @@
         },
         {
             "id": 8,
-            "question": "Define momentum.",
-            "answer": "Momentum (p) = Mass (m) * Velocity (v)",
-            "topic": "Momentum and Impulse",
+            "question": "(ENEM 2015) Um carro solar é um veículo que utiliza apenas a energia solar para a sua locomoção. 
+            Tipicamente, o carro contém um painel fotovoltaico que converte a energia do Sol em energia elétrica que, 
+            por sua vez, alimenta um motor elétrico. A imagem mostra o carro solar Tokai Challenger, 
+            desenvolvido na Universidade de Tokai, no Japão, e que venceu o World Solar Challenge de 2009, 
+            uma corrida internacional de carros solares, tendo atingido uma velocidade média acima de 100 km/h.
+            Considere uma região plana onde a insolação (energia solar por unidade de tempo e de área que chega à 
+            superfície da Terra) seja de 1 000 W/m² , que o carro solar possua massa de 200 kg e seja construído 
+            de forma que o painel fotovoltaico em seu topo tenha uma área de 9,0 m² e rendimento de 30%.",
+            "answer": "Identifica-se na questão insolação como E/t.A = 1000.
+            Como só 30% é aproveitado, E/t.A = 30%*1000
+            E a E=mv^2/2
+            mv^2/2.t.A = 30%*1000
+            Como sabemos quem é m, v e A. Fazendo as contas, temos:
+            t=33,333 s",
+            "topic": "Cinemática",
             "difficulty": "Hard"
         },
         {
             "id": 9,
-            "question": "Define momentum.",
-            "answer": "Momentum (p) = Mass (m) * Velocity (v)",
-            "topic": "Momentum and Impulse",
+            "question": "(ENEM 2017) Um motorista que atende a uma chamada de celular é levado à desatenção, aumentando
+            a possibilidade de acidentes ocorrerem em razão do aumento de seu tempo de reação.
+            Considere dois motoristas, o primeiro atento e o segundo utilizando o celular enquanto dirige.
+            Eles aceleram seus carros inicialmente a 1,00 m/s². Em resposta a uma emergência, 
+            freiam com uma desaceleração igual a 5,00 m/s². O motorista atento aciona o freio à velocidade de 14,0 m/s,
+            enquanto o desatento, em situação análoga, leva 1,00 segundo a mais para iniciar a frenagem.",
+            "answer": "O motorista atento começa a desacelerar com 5,00 m/s^2 a partir de 14 m/s. Usando a equação de Torricelli,
+            Vf^2 = Vi^2 +2*a*Δ => 0 = 14^2-2.5.ΔS1 => ΔS1 = 19,6 m.
+            
+            No caso do motorista desatento, pode-se separar o movimento em duas partes:
+            i) enquanto ainda acelera a 1,00 m/s² a partir de 14 m/s chegando a 15 m/s, o deslocamento nesse trecho ser
+            15^2= 14^2-2.1.ΔS2' => ΔS2' = 14,5 m
+            
+            ii) a partir daí, freia à 5,00 m/s², percorrendo um deslocamento
+            0 = 15^2-2.5.ΔS2'' => ΔS2'' = 22,5m.
+            
+            Logo, o desatento percorre no total 22,5 m + 14,5 m = 37 m,
+            percorrendo a mais que o atento 37 m - 19,6 m = 17,4 m.",
+            "topic": "Cinemática",
             "difficulty": "Hard"
         },
         {
             "id": 10,
-            "question": "Define momentum.",
-            "answer": "Momentum (p) = Mass (m) * Velocity (v)",
-            "topic": "Momentum and Impulse",
+            "question": "(ENEM 2015) Uma garrafa térmica tem como função evitar a troca de calor entre o líquido nela contido e o ambiente, 
+            mantendo a temperatura de seu conteúdo constante. Uma forma de orientar os consumidores na compra de uma 
+            garrafa térmica seria criar um selo de qualidade, como se faz atualmente para informar o consumo de energia 
+            de eletrodomésticos. O selo identificaria cinco categorias e informaria a variação de temperatura do conteúdo
+            da garrafa, depois de decorridas seis horas de seu fechamento, por meio de uma porcentagem do valor inicial 
+            da temperatura de equilíbrio do líquido na garrafa. O quadro apresenta as categorias e os intervalos de 
+            variação percentual da temperatura. 
+            
+            
+            
+                                 Tipo de Selo   |   Variação de Temperatura
+                                       
+                                        A                Menor que 10%
+                                        B               Entre 10% e 25%
+                                        C               Entre 25% e 40%
+                                        D               Entre 40% e 55%
+                                        E                Maior que 55%
+            
+            Para atribuir uma categoria a um modelo de garrafa térmica, são preparadas e misturadas, 
+            em uma garrafa, duas amostras de água, uma a 10°C e outra a 40°C, na proporção de um terço de água 
+            fria para dois terços de água quente. A garrafa é fechada. Seis horas depois, abre-se a garrafa e 
+            mede-se a temperatura da água, obtendo-se 16°C.",
+            "answer": "O primeiro passo é calcular a temperatura de equilíbrio:
+            Qrecebido + Qcedido=0 =>  mfria . c . (Tf-Tif) + mquente . c . (Tf-Tiq) = 0 =>
+            mfria . c . (Tf-10) + 2mfrio . c . (Tf-40) = 0 (a relação entre as massas é 2mquente para 1mfria)=>
+            Tf-10+2Tf - 80 = 0 => 3Tf - 90 = 0 => Tf = 30 ºC
+            Assim, depois de 6h, a temperatura variou de 30ºC para 16ºC, ou seja, 14ºC - uma variação de 
+            aproximadamente 50%.",
+            "topic": "Termodinâmica",
             "difficulty": "Hard"
-        },
+        }
 }
