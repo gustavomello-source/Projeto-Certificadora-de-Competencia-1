@@ -26,3 +26,9 @@ https://github.com/gustavomello-source/Projeto-Certificadora-de-Competencia-1
 Para executar o programa, é necessário instalar python na versão 3.12 ou superior. Para isso, deve-se entrar no site https://www.python.org/downloads/ e seguir os passos para instalação.
 
 Após isso, basta instalar o repositório do github e executar o arquivo "project_draft_2.py". Apenas o arquivo "project_draft_2.py" e a pasta "data" são necessários para a execução, e devem estar no mesmo diretório.
+
+## Vídeo de demonstração do funcionamento
+
+Aqui está um vídeo brevemente demonstrando como o projeto está funcionando na versão atual
+
+https://drive.google.com/file/d/1p6slYWufIwQ0dtgFEtNcGK-dUJk2tc17/view?usp=sharing
