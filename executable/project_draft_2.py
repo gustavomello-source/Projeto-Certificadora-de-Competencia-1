@@ -240,17 +240,27 @@ def on_line_click(event):
     delete_input_entries()
     
     if selected_item:
+        #print(selected_item)
         item = tree.selection()[0]
+        #print(item)
+        
+        try:
+            index = int(item[-1]) - 1
+        except ValueError:
+            index = 9
+            
+        #print(index)
+        
         question_text = tree.item(item, "values")[0]
         
-        print("Values for clicked item:", question_text)
-        print(tree.item(item, "values"))
+        #print("Values for clicked item:", question_text)
+        #print(tree.item(item, "values"))
         
-        var_names = get_var_names_from_line(tree.index(item))
-        var_values = get_var_values_from_line(tree.index(item))
+        var_names = get_var_names_from_line(index)
+        var_values = get_var_values_from_line(index)
         create_input_fields(canvas, var_names, var_values)
         
-        current_exercise = tree.index(item)
+        current_exercise = index
         
         fill_text_box(question_text)
     else:
